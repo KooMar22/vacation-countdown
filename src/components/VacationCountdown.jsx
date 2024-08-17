@@ -36,8 +36,9 @@ function VacationCountdown() {
     <div className="counter">
       {isVacationStarted ? (
         <div className="message">
-          <h1>Korisnik je na godišnjem odmoru 😎</h1>
-          <p>Ako vam je život mio, triput razmislite prije nego ćete mu poslati službeni e-mail.</p>
+          <h1>Koristim godišnji odmor 🌴</h1>
+          <p>Ako nije hitno, pričekajte moj povratak. Ako je hitno, preispitajte svoje prioritete. 😎</p>
+          <p>Ako me ipak kontaktirate, očekujte odgovor tek nakon što se vratim s godišnjeg odmora. 😎</p>
         </div>
       ) : (
         <div>
