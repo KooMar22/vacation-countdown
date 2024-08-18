@@ -82,7 +82,7 @@ body {
     font-size: 1.3rem;
 }
 
-@media (min-width:769px) and (orientation: landscape) {
+@media (orientation: portrait) {
     .countdown {
         grid-template-columns: 1fr;
     }
