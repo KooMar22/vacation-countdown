@@ -82,7 +82,7 @@ body {
     font-size: 1.3rem;
 }
 
-@media screen and (max-width: 1080px) {
+@media (max-width: 1024px) {
     .countdown {
         grid-template-columns: 1fr;
     }
