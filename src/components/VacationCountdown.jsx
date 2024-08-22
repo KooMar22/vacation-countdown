@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 function VacationCountdown() {
   const calculateTimeRemaining = () => {
     const now = new Date();
-    const vacationStartDate = new Date(2024, 7, 23, 15, 0, 0); // 23.08.2024. u 15:00h
+    const vacationStartDate = new Date(2024, 7, 23, 16, 0, 0); // 23.08.2024. u 16:00h
 
     const difference = vacationStartDate - now;
 
