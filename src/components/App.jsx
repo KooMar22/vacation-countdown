@@ -1,8 +1,9 @@
 import Header from "./Header";
 import Footer from "./Footer";
 import VacationCountdown from "./VacationCountdown";
+import "../styles/styles.css";
 
-function App() {
+const App = () => {
   return (
     <div className="container">
       < Header />
